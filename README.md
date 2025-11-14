@@ -5,7 +5,7 @@
 
 <br><br>
 
-# 12- [Data Mining]()  / [Project 2 – Clustering Algorithms Exploration and Comparison]()
+# 15- [Data Mining]()  / [Project 2 – Clustering Algorithms Exploration and Comparison]() - K-Means - Mean-Shift - Dbscan
 
 
 
