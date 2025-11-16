@@ -224,9 +224,28 @@ print(f"Dataset has {df.shape[0]} rows and {df.shape[1]} columns.")
 
 <br><br>
 
+2) Initial inspection & cleaning
 
+[***What it does***](): df.describe(), remove 'Unnamed: 0' if exists, fill missing values with mode, drop duplicates. 
 
+<br>
 
+```python
+print(df.describe())
+
+if 'Unnamed: 0' in df.columns:
+    df = df.drop(columns=['Unnamed: 0'])
+
+# fill missing
+for col in df.columns:
+    if df[col].isnull().any():
+        df[col] = df[col].fillna(df[col].mode()[0])
+
+# drop duplicates
+df = df.drop_duplicates()
+```
+
+<br><br>
 
 
 
