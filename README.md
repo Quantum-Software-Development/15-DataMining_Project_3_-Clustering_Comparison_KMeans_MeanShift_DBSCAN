@@ -175,7 +175,7 @@ scikit-learn
 
 <br><br>
 
-## 4. Step-by-step explanation (kid-friendly)
+## 4. [Step-by-step explanation (kid-friendly)]()
 
 - We open the table (CSV) — like opening a spreadsheet.
 - Count how many rows (lines) and columns (types of information) it has.
