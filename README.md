@@ -131,17 +131,17 @@ This project loads a CSV dataset (`Dados-Grupo4.csv`), inspects and cleans it, a
 
 <br><br>
 
-### 3. Quick Start (run the code)
+## 3. [Quick Start (run the code)]()
 
-3.1- Open Colab or your local Python environment.
-
-<br>
-
-3.2- Upload `Dados-Grupo4.csv` to the working folder.
+[3.1]()- Open Colab or your local Python environment.
 
 <br>
 
-3.3- Install dependencies:
+[3.2]()- Upload `Dados-Grupo4.csv` to the working folder.
+
+<br>
+
+[3.3]()- Install dependencies:
 
 <br>
 
@@ -151,7 +151,7 @@ pip install -r requirements.txt
 
 <br>
 
-3.4- Either run `notebook.ipynb` cell by cell or execute:
+[3.4]()- Either run `notebook.ipynb` cell by cell or execute:
 
 <br>
 
