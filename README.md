@@ -269,9 +269,11 @@ plt.ylabel('Scaled Coluna2')
 plt.grid(True, linestyle='--', alpha=0.7)
 plt.show()
 ```
+<br>
 
+### [***PLOT 1Z***]() — Initial Scatter
 
-<br><br>
+<br>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1f2d7894-6837-4f42-b689-2675e6e78cab" width="100%">
