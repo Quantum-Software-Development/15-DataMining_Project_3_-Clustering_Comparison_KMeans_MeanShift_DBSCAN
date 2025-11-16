@@ -198,11 +198,31 @@ scikit-learn
 
 Typical code steps already [here](https://github.com/Quantum-Software-Development/15-DataMining_Project_3_-Clustering_Comparison_KMeans_MeanShift_DBSCAN/blob/91ce4685c925253a2d054c9f89ebe16f00d27050/code/Project_3__Clustering_Comparison_KMeans_MeanShift_DBSCAN.ipynb) in the repo):
 
+<br><br>
+
+## 5.1 [Environment & load data]()
+
+[***What it does***](): import libraries, set dark theme and turquoise palette, load CSV and print shape.
+
 <br>
 
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+# Configure matplotlib for dark background
+plt.style.use('dark_background')
+sns.set_palette('GnBu_r')
 
+# Load the dataset
+df = pd.read_csv('/content/Dados-Grupo4.csv')
 
+# Display the number of rows and columns
+print(f"Dataset has {df.shape[0]} rows and {df.shape[1]} columns.")
+```
+
+<br><br>
 
 
 
