@@ -444,9 +444,20 @@ print('KMeans silhouette:', silhouette_score(df_scaled[['Coluna1','Coluna2']], d
 - [**DBSCAN**]() (eps chosen from K-distance, min_samples=4): Found 5 clusters + noise — good for dense groups and spotting outliers.
 - [**Interpretation:**]() Each method groups points differently depending on the rules. Like sorting toys by color vs by how close they are on a shelf — the piles will be different.
 
+
 <br><br>
 
 
+## 7. [Next steps \& suggestions]()
+
+[-]() Compute metrics like silhouette score or Davies-Bouldin index to compare methods numerically.
+[-]() Try other K values for K-Means; test different quantiles for Mean-Shift bandwidth.
+[-]() With more than 2 features, try PCA/t-SNE/UMAP for visualization.
+[-]() If DBSCAN finds too much noise, adjust eps/min_samples or test HDBSCAN.
+[-]() Make a slide comparing all three plots side by side, with one-sentence conclusions.
+[-]() Example silhouette code:
+
+<br><br>
 
 
 
