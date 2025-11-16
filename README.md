@@ -223,9 +223,13 @@ df_scaled = pd.DataFrame(scaler.fit_transform(df[num_cols]), columns=num_cols)
 
 <br><br>
 
+## 6. Algorithms used (simple descriptions)
 
+- [**K-Means:**]() Imagine placing K baskets and sorting each toy by the closest basket. Baskets move a bit until groups are stable. You must choose K.
+- [**Mean-Shift:**]() Each toy moves toward the area with the most toys nearby, automatically finding dense groups. You don't pick the number of groups.
+- [**DBSCAN:**]() If a toy has enough close neighbors, it's in a cluster; if alone, it's considered noise. Parameters: `eps` (how close is “close”) and `min_samples` (number of neighbors).
 
-
+<br><br>
 
 
 
