@@ -195,7 +195,7 @@ scikit-learn
 
 ## 5. [Data cleaning \& preprocessing]()
 
-Typical code steps already [here() in the repo):
+Typical code steps already [here](https://github.com/Quantum-Software-Development/15-DataMining_Project_3_-Clustering_Comparison_KMeans_MeanShift_DBSCAN/blob/91ce4685c925253a2d054c9f89ebe16f00d27050/code/Project_3__Clustering_Comparison_KMeans_MeanShift_DBSCAN.ipynb) in the repo):
 
 <br>
 
