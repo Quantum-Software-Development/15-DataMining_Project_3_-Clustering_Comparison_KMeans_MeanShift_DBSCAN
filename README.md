@@ -200,7 +200,7 @@ Typical code steps already [here](https://github.com/Quantum-Software-Developmen
 
 <br><br>
 
-## 5.1 [Environment & load data]()
+## 5.1 - [Environment & load data]()
 
 [***What it does***](): import libraries, set dark theme and turquoise palette, load CSV and print shape.
 
@@ -224,7 +224,7 @@ print(f"Dataset has {df.shape[0]} rows and {df.shape[1]} columns.")
 
 <br><br>
 
-## 5.2 [Initial inspection & cleaning]()
+## 5.2 - [Initial inspection & cleaning]()
 
 [***What it does***](): df.describe(), remove 'Unnamed: 0' if exists, fill missing values with mode, drop duplicates. 
 
@@ -247,7 +247,7 @@ df = df.drop_duplicates()
 
 <br><br>
 
-## 5.3 [Scale numeric features & initial scatter plot]()
+## 5.3 - [Scale numeric features & initial scatter plot]()
 
 [***What it does***](): standardize numeric features and produce the initial scatter plot (figsize 12×8). 
 
@@ -292,7 +292,7 @@ plt.show()
 <br><br>
 
 
-## 5.4 [K-distance graph (determine DBSCAN eps)]()
+## 5.4 - [K-distance graph (determine DBSCAN eps)]()
 
 [***What it does***](): computes distance to 4th nearest neighbor for each point and plots sorted distances — the K-distance graph used to pick eps.
 
@@ -343,7 +343,7 @@ This plot is crucial for choosing the `eps` value — look for the **“elbow”
 <br><br>
 
 
-## 5.5 [Apply clustering algorithms & combined visualization]()
+## 5.5 - [Apply clustering algorithms & combined visualization]()
 
 [***What it does***]():  runs K-Means, Mean-Shift and DBSCAN; stores labels; plots the three results side-by-side.
 
@@ -483,7 +483,7 @@ print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
 <br><br>
 
 
-## 9-  [Our Crew:]()
+## 9.  [Our Crew:]()
 
 
 - 👨🏽‍🚀 **Andson Ribeiro** - [Slide into my inbox]()
@@ -508,22 +508,25 @@ print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
 <br><br>
 
 
-## [Bibliography]()
+## 10. [Bibliography]()
 
 
 [1](). **Castro, L. N. & Ferrari, D. G.** (2016). *Introdução à mineração de dados: conceitos básicos, algoritmos e aplicações*. Saraiva.
 
-[2](). **Ferreira, A. C. P. L. et al.** (2024). *Inteligência Artificial - Uma Abordagem de Aprendizado de Máquina*. 2nd Ed. LTC.
+[2](). **Ester, M., Kriegel, H.-P., Sander, J., & Xu, X.** (1996). *A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise*.
 
-[3](). **Larson & Farber** (2015). *Estatística Aplicada*. Pearson.
+[3](). **Ferreira, A. C. P. L. et al.** (2024). *Inteligência Artificial — Uma Abordagem de Aprendizado de Máquina*. 2nd Ed. LTC.
 
-### 12. References
+[4](). **Larson, R. & Farber, B.** (2015). *Estatística Aplicada*. Pearson.
 
-- J. MacQueen: “Some Methods for classification and Analysis of Multivariate Observations” — K-Means
-- Comaniciu \& Meer: “Mean shift: A robust approach toward feature space analysis.” — Mean-Shift
-- Ester et al.: “A density-based algorithm for discovering clusters” — DBSCAN
-- scikit-learn documentation (clustering algorithms)
-- Any good Intro to Data Science book (e.g., “Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow”)
+[5](). **MacQueen, J.** (1967). *Some Methods for Classification and Analysis of Multivariate Observations* — origin of K-Means.
+
+[6](). **Meer, P. & Comaniciu, D.** (2002). *Mean Shift: A Robust Approach Toward Feature Space Analysis*.
+
+[7](). **scikit-learn documentation** — clustering algorithms.
+
+[8](). **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** — general DS reference.
+
 
 
 <br><br>
