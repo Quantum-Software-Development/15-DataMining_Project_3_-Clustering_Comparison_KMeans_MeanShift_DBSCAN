@@ -103,7 +103,7 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 5. [Data cleaning & preprocessing](#data-cleaning--preprocessing)
 6. [Algorithms used (K-Means, Mean-Shift, DBSCAN)](#algorithms-used-k-means-mean-shift-dbscan)
 7. [How we chose DBSCAN eps (K-distance graph)](#how-we-chose-dbscan-eps-k-distance-graph)
-8. [Visualization & style (dark--turquoise)](#visualization--style-dark--turquoise)
+8. [Visualization](#visualization--style-dark--turquoise)
 9. [Results summary & interpretation](#results-summary--interpretation)
 10. [Next steps & suggestions](#next-steps--suggestions)
 11 [Requirements & environment](#requirements--environment)
@@ -193,89 +193,26 @@ scikit-learn
 <br><br>
 
 
-## 5. [Data cleaning \& preprocessing]()
+
+## 5. [Step-by-step]()
 
 Typical code steps already [here](https://github.com/Quantum-Software-Development/15-DataMining_Project_3_-Clustering_Comparison_KMeans_MeanShift_DBSCAN/blob/91ce4685c925253a2d054c9f89ebe16f00d27050/code/Project_3__Clustering_Comparison_KMeans_MeanShift_DBSCAN.ipynb) in the repo):
 
 <br>
 
-```python
-import pandas as pd
-from sklearn.preprocessing import StandardScaler
-
-df = pd.read_csv('Dados-Grupo4.csv')
-print(df.shape)  # rows & columns
-print(df.describe())  # summary statistics
-
-if 'Unnamed: 0' in df.columns:
-    df = df.drop(columns=['Unnamed: 0'])
-
-for col in df.columns:
-    if df[col].isnull().any():
-        df[col].fillna(df[col].mode()[0], inplace=True)
-
-df = df.drop_duplicates()
-
-num_cols = df.select_dtypes(include=['int64','float64']).columns
-scaler = StandardScaler()
-df_scaled = pd.DataFrame(scaler.fit_transform(df[num_cols]), columns=num_cols)
-```
-
-<br><br>
-
-## 6. [Algorithms used (simple descriptions)]()
-
-- [**K-Means:**]() Imagine placing K baskets and sorting each toy by the closest basket. Baskets move a bit until groups are stable. You must choose K.
-- [**Mean-Shift:**]() Each toy moves toward the area with the most toys nearby, automatically finding dense groups. You don't pick the number of groups.
-- [**DBSCAN:**]() If a toy has enough close neighbors, it's in a cluster; if alone, it's considered noise. Parameters: `eps` (how close is “close”) and `min_samples` (number of neighbors).
-
-<br><br>
 
 
-## 7. How we chose DBSCAN eps (K-distance graph)
 
-- For each point, calculate distance to its 4th nearest neighbor (for 2D, `min_samples=4`).
-- Sort distances and plot them.
-- Choose eps at the “elbow” (sharp bend) of the curve.
 
-<br>
 
-Sample code:
 
-<br>
 
-```python
-from sklearn.neighbors import NearestNeighbors
-import matplotlib.pyplot as plt
-import numpy as np
 
-neigh = NearestNeighbors(n_neighbors=4)
-neigh.fit(df_scaled)
-distances, _ = neigh.kneighbors(df_scaled)
-distances = np.sort(distances[:, 3])
-plt.plot(distances); plt.title('K-distance'); plt.show()
-```
 
-<br><br>
 
-## 8. [Visualization]()
 
-Use matplotlib/seaborn with a dark background and turquoise palette:
 
-<br>
 
-```python
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-plt.style.use('dark_background')
-sns.set_palette('GnBu_r')  # turquoise palette
-
-plt.figure(figsize=(12,8))
-sns.scatterplot(x=df_scaled['Col1'], y=df_scaled['Col2'], hue=kmeans_labels, legend='full')
-plt.title('K-Means (dark + turquoise)')
-plt.show()
-```
 
 <br><br>
 
