@@ -93,10 +93,6 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 
 
 
-Aqui está o **Table of Contents corrigido com âncoras compatíveis com GitHub** — basta colar no seu README.
-(As âncoras já estão no formato exato que o GitHub gera automaticamente.)
-
----
 
 ## 📚 Table of Contents (with GitHub Anchors)
 
