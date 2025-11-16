@@ -299,6 +299,24 @@ plt.show()
 
 <br>
 
+```python
+from sklearn.neighbors import NearestNeighbors
+import numpy as np
+
+neigh = NearestNeighbors(n_neighbors=4)
+neigh.fit(df_scaled)
+distances, indices = neigh.kneighbors(df_scaled)
+distances = np.sort(distances[:, 3], axis=0)  # distance to 4th NN
+
+# --- PLOT 2: K-distance graph ---
+plt.figure(figsize=(12, 8))
+plt.plot(distances)
+plt.title('K-distance Graph for DBSCAN')
+plt.xlabel('Data Points sorted by Distance')
+plt.ylabel('Epsilon (Distance)')
+plt.grid(True, linestyle='--', alpha=0.7)
+plt.show()
+```
 
 
 
