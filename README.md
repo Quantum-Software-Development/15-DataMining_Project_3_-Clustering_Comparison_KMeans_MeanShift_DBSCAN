@@ -223,7 +223,7 @@ df_scaled = pd.DataFrame(scaler.fit_transform(df[num_cols]), columns=num_cols)
 
 <br><br>
 
-## 6. Algorithms used (simple descriptions)
+## 6. [Algorithms used (simple descriptions)]()
 
 - [**K-Means:**]() Imagine placing K baskets and sorting each toy by the closest basket. Baskets move a bit until groups are stable. You must choose K.
 - [**Mean-Shift:**]() Each toy moves toward the area with the most toys nearby, automatically finding dense groups. You don't pick the number of groups.
@@ -232,11 +232,35 @@ df_scaled = pd.DataFrame(scaler.fit_transform(df[num_cols]), columns=num_cols)
 <br><br>
 
 
+## 7. How we chose DBSCAN eps (K-distance graph)
+
+- For each point, calculate distance to its 4th nearest neighbor (for 2D, `min_samples=4`).
+- Sort distances and plot them.
+- Choose eps at the “elbow” (sharp bend) of the curve.
+
+<br>
+
+Sample code:
+
+<br>
+
+```python
+from sklearn.neighbors import NearestNeighbors
+import matplotlib.pyplot as plt
+import numpy as np
+
+neigh = NearestNeighbors(n_neighbors=4)
+neigh.fit(df_scaled)
+distances, _ = neigh.kneighbors(df_scaled)
+distances = np.sort(distances[:, 3])
+plt.plot(distances); plt.title('K-distance'); plt.show()
+```
+
+<br><br>
 
 
 
-
-
+<br><br>
 
 
 
