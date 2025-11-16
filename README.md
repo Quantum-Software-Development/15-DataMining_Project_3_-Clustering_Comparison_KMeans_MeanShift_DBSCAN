@@ -351,10 +351,47 @@ This plot is crucial for choosing the `eps` value — look for the **“elbow”
 <br>
 
 ```python
+from sklearn.cluster import KMeans, MeanShift, DBSCAN
+from sklearn.cluster import estimate_bandwidth
 
+# K-Means
+kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
+df_scaled['kmeans_labels'] = kmeans.fit_predict(df_scaled[['Coluna1','Coluna2']])
+
+# Mean-Shift
+bandwidth = estimate_bandwidth(df_scaled[['Coluna1', 'Coluna2']], quantile=0.2, n_samples=len(df_scaled))
+meanshift = MeanShift(bandwidth=bandwidth, bin_seeding=True)
+df_scaled['meanshift_labels'] = meanshift.fit_predict(df_scaled[['Coluna1','Coluna2']])
+
+# DBSCAN (choose eps from k-distance)
+dbscan = DBSCAN(eps=0.25, min_samples=4)
+df_scaled['dbscan_labels'] = dbscan.fit_predict(df_scaled[['Coluna1','Coluna2']])
+
+# --- PLOT 3: Comparison (three subplots) ---
+plt.figure(figsize=(20, 7))
+
+plt.subplot(1, 3, 1)
+sns.scatterplot(x=df_scaled['Coluna1'], y=df_scaled['Coluna2'], hue=df_scaled['kmeans_labels'], palette='GnBu_r', legend='full')
+plt.title('K-Means Clustering (K=3)')
+plt.grid(True, linestyle='--', alpha=0.7)
+
+plt.subplot(1, 3, 2)
+sns.scatterplot(x=df_scaled['Coluna1'], y=df_scaled['Coluna2'], hue=df_scaled['meanshift_labels'], palette='GnBu_r', legend='full')
+plt.title(f'Mean-Shift (bandwidth={bandwidth:.2f})')
+plt.grid(True, linestyle='--', alpha=0.7)
+
+plt.subplot(1, 3, 3)
+sns.scatterplot(x=df_scaled['Coluna1'], y=df_scaled['Coluna2'], hue=df_scaled['dbscan_labels'], palette='GnBu_r', legend='full')
+plt.title('DBSCAN (eps=0.25, min_samples=4)')
+plt.grid(True, linestyle='--', alpha=0.7)
+
+plt.tight_layout()
+plt.show()
 ```
 
+<br>
 
+### [***PLOT 3***]() -
 
 
 
