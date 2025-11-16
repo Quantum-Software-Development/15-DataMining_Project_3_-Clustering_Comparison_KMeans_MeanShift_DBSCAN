@@ -131,9 +131,38 @@ This project loads a CSV dataset (`Dados-Grupo4.csv`), inspects and cleans it, a
 
 <br><br>
 
+### 3. Quick Start (run the code)
+
+3.1- Open Colab or your local Python environment.
+3.2- Upload `Dados-Grupo4.csv` to the working folder.
+3.3- Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+<br><br>
+
+3.4- Either run `notebook.ipynb` cell by cell or execute:
+
+```bash
+python run_clustering.py
+```
+
+<br>
+
+**Example `requirements.txt`:**
+
+```
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+```
 
 
-
+<br><br>
 
 
 
