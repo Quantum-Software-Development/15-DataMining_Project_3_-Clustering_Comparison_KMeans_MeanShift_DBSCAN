@@ -424,7 +424,13 @@ plt.show()
 <br>
 
 ```python
+print(f"Number of K-Means clusters: {df_scaled['kmeans_labels'].nunique()}")
+print(f"Number of Mean-Shift clusters: {df_scaled['meanshift_labels'].nunique()}")
+print(f"Number of DBSCAN clusters (excluding noise -1): {df_scaled['dbscan_labels'].nunique() - (1 if -1 in df_scaled['dbscan_labels'].unique() else 0)}")
 
+# Optional: silhouette
+from sklearn.metrics import silhouette_score
+print('KMeans silhouette:', silhouette_score(df_scaled[['Coluna1','Coluna2']], df_scaled['kmeans_labels']))
 ```
 
 
