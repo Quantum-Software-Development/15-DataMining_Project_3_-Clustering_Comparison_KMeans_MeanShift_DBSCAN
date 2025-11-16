@@ -271,7 +271,7 @@ plt.show()
 ```
 <br>
 
-### [***PLOT 1Z***]() — Initial Scatter
+### [***PLOT 1***]() — Initial Scatter
 
 <br>
 
@@ -282,7 +282,12 @@ plt.show()
 
 <br><br>
 
+> [!TIP]
+> 
+> To save: add plt.savefig('initial_scatter.png', dpi=300, bbox_inches='tight') before de plt.show()
+> 
 
+<br><br>
 
 
 
