@@ -98,17 +98,17 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 
 1. [Project Overview](#project-overview)
 2. [What's in this repo](#whats-in-this-repo)
-* [Quick Start (run the code)](#quick-start-run-the-code)
-* [Step-by-step explanation (kid-friendly)](#step-by-step-explanation-kid-friendly)
-* [Data cleaning & preprocessing](#data-cleaning--preprocessing)
-* [Algorithms used (K-Means, Mean-Shift, DBSCAN)](#algorithms-used-k-means-mean-shift-dbscan)
-* [How we chose DBSCAN eps (K-distance graph)](#how-we-chose-dbscan-eps-k-distance-graph)
-* [Visualization & style (dark--turquoise)](#visualization--style-dark--turquoise)
-* [Results summary & interpretation](#results-summary--interpretation)
-* [Next steps & suggestions](#next-steps--suggestions)
-* [Requirements & environment](#requirements--environment)
-* [References](#references)
-* [License & credits](#license--credits)
+3. [Quick Start (run the code)](#quick-start-run-the-code)
+4. [Step-by-step explanation (kid-friendly)](#step-by-step-explanation-kid-friendly)
+5. [Data cleaning & preprocessing](#data-cleaning--preprocessing)
+6. [Algorithms used (K-Means, Mean-Shift, DBSCAN)](#algorithms-used-k-means-mean-shift-dbscan)
+7. [How we chose DBSCAN eps (K-distance graph)](#how-we-chose-dbscan-eps-k-distance-graph)
+8. [Visualization & style (dark--turquoise)](#visualization--style-dark--turquoise)
+9. [Results summary & interpretation](#results-summary--interpretation)
+10. [Next steps & suggestions](#next-steps--suggestions)
+11 [Requirements & environment](#requirements--environment)
+12. [References](#references)
+13. [License & credits](#license--credits)
 
 
 
