@@ -437,14 +437,14 @@ print('KMeans silhouette:', silhouette_score(df_scaled[['Coluna1','Coluna2']], d
 <br><br>
 
 
-### 6. [Results summary \& interpretation]()
+## 6. [Results summary \& interpretation]()
 
 - [**K-Means (K=3):**]() Found 3 clusters — standard baseline, assumes round groups.
 - [**Mean-Shift:**]() Found 4 clusters — adapts to dense regions automatically.
 - [**DBSCAN**]() (eps chosen from K-distance, min_samples=4): Found 5 clusters + noise — good for dense groups and spotting outliers.
 - [**Interpretation:**]() Each method groups points differently depending on the rules. Like sorting toys by color vs by how close they are on a shelf — the piles will be different.
 
-
+<br><br>
 
 
 
