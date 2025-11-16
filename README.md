@@ -258,6 +258,9 @@ plt.plot(distances); plt.title('K-distance'); plt.show()
 
 <br><br>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1f2d7894-6837-4f42-b689-2675e6e78cab" width="85%">
+</p>
 
 
 <br><br>
