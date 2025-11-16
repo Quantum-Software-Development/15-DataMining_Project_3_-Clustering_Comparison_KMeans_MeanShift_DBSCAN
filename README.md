@@ -327,15 +327,20 @@ This plot is crucial for choosing the `eps` value — look for the **“elbow”
 
 <br>
 
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b680cc5c-8b24-4514-9bb0-5df6d56243da" width="100%">
+</p>
 
 <br><br>
 
+> [!TIP]
+> 
+> 👌🏻
+> 
+> [***To save***](): plt.savefig('k_distance.png', dpi=300, bbox_inches='tight').
+>
 
-
-
-
+<br><br>
 
 
 
