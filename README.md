@@ -97,7 +97,7 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 ## 📚 Table of Contents (with GitHub Anchors)
 
 1. [Project Overview](#project-overview)
-* [What's in this repo](#whats-in-this-repo)
+2. [What's in this repo](#whats-in-this-repo)
 * [Quick Start (run the code)](#quick-start-run-the-code)
 * [Step-by-step explanation (kid-friendly)](#step-by-step-explanation-kid-friendly)
 * [Data cleaning & preprocessing](#data-cleaning--preprocessing)
