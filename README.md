@@ -224,7 +224,7 @@ print(f"Dataset has {df.shape[0]} rows and {df.shape[1]} columns.")
 
 <br><br>
 
-## 5.2 Initial inspection & cleaning
+## 5.2 [Initial inspection & cleaning]()
 
 [***What it does***](): df.describe(), remove 'Unnamed: 0' if exists, fill missing values with mode, drop duplicates. 
 
@@ -247,7 +247,7 @@ df = df.drop_duplicates()
 
 <br><br>
 
-## 5.3 Scale numeric features & initial scatter plot
+## 5.3 [Scale numeric features & initial scatter plot]()
 
 [***What it does***](): standardize numeric features and produce the initial scatter plot (figsize 12×8). 
 
@@ -292,9 +292,12 @@ plt.show()
 <br><br>
 
 
+## 5.4 [K-distance graph (determine DBSCAN eps)]()
+
+[***What it does***](): computes distance to 4th nearest neighbor for each point and plots sorted distances — the K-distance graph used to pick eps.
 
 
-
+<br>
 
 
 
