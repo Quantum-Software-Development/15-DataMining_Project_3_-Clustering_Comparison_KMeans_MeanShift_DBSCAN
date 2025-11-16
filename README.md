@@ -93,12 +93,27 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 
 
 
-## Table of Contents 
+Aqui está o **Table of Contents corrigido com âncoras compatíveis com GitHub** — basta colar no seu README.
+(As âncoras já estão no formato exato que o GitHub gera automaticamente.)
 
-- [🇬🇧 English Version](#%EF%B8%8F-english-version)
-    - [1. Introduction](#1-introduction)
-    - [2. Step-by-Step Guide](#2-step-by-step-guide)
-    - [3. Bibliographic References](#3-bibliographic-references)
+---
+
+## 📚 Table of Contents (with GitHub Anchors)
+
+* [Project Overview](#project-overview)
+* [What's in this repo](#whats-in-this-repo)
+* [Quick Start (run the code)](#quick-start-run-the-code)
+* [Step-by-step explanation (kid-friendly)](#step-by-step-explanation-kid-friendly)
+* [Data cleaning & preprocessing](#data-cleaning--preprocessing)
+* [Algorithms used (K-Means, Mean-Shift, DBSCAN)](#algorithms-used-k-means-mean-shift-dbscan)
+* [How we chose DBSCAN eps (K-distance graph)](#how-we-chose-dbscan-eps-k-distance-graph)
+* [Visualization & style (dark--turquoise)](#visualization--style-dark--turquoise)
+* [Results summary & interpretation](#results-summary--interpretation)
+* [Next steps & suggestions](#next-steps--suggestions)
+* [Requirements & environment](#requirements--environment)
+* [References](#references)
+* [License & credits](#license--credits)
+
 
 
 <br><br>
