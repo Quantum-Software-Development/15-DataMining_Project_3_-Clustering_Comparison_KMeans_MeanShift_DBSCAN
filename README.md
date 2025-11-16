@@ -99,8 +99,8 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 1. [Project Overview](#project-overview)
 2. [What's in this repo](#whats-in-this-repo)
 3. [Quick Start (run the code)](#quick-start-run-the-code)
-4. [Step-by-step explanation (kid-friendly)](#step-by-step-explanation-kid-friendly)
-5. [Data cleaning & preprocessing](#data-cleaning--preprocessing)
+4. [Step-by-Step Explanation](#step-by-step-explanation-kid-friendly)
+5. [Code Step-by-Step](#data-cleaning--preprocessing)
 6. [Algorithms used (K-Means, Mean-Shift, DBSCAN)](#algorithms-used-k-means-mean-shift-dbscan)
 7. [How we chose DBSCAN eps (K-distance graph)](#how-we-chose-dbscan-eps-k-distance-graph)
 8. [Visualization](#visualization--style-dark--turquoise)
@@ -194,7 +194,7 @@ scikit-learn
 
 
 
-## 5. [Step-by-step]()
+## 5. [Code Step-by-Step]()
 
 Typical code steps already [here](https://github.com/Quantum-Software-Development/15-DataMining_Project_3_-Clustering_Comparison_KMeans_MeanShift_DBSCAN/blob/91ce4685c925253a2d054c9f89ebe16f00d27050/code/Project_3__Clustering_Comparison_KMeans_MeanShift_DBSCAN.ipynb) in the repo):
 
