@@ -93,9 +93,15 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 
 
 
+## Table of Contents 
+
+- [🇬🇧 English Version](#%EF%B8%8F-english-version)
+    - [1. Introduction](#1-introduction)
+    - [2. Step-by-Step Guide](#2-step-by-step-guide)
+    - [3. Bibliographic References](#3-bibliographic-references)
 
 
-
+<br><br>
 
 
 
