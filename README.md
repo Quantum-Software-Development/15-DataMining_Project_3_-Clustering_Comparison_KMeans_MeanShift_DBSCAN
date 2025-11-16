@@ -224,7 +224,7 @@ print(f"Dataset has {df.shape[0]} rows and {df.shape[1]} columns.")
 
 <br><br>
 
-2) Initial inspection & cleaning
+## 5.2 Initial inspection & cleaning
 
 [***What it does***](): df.describe(), remove 'Unnamed: 0' if exists, fill missing values with mode, drop duplicates. 
 
@@ -247,10 +247,28 @@ df = df.drop_duplicates()
 
 <br><br>
 
+## 5.3 Scale numeric features & initial scatter plot
 
+[***What it does***](): standardize numeric features and produce the initial scatter plot (figsize 12×8). 
 
+<br>
 
+```python
+from sklearn.preprocessing import StandardScaler
 
+columns_to_scale = ['Coluna1', 'Coluna2']  # adapt if columns differ
+scaler = StandardScaler()
+df_scaled = pd.DataFrame(scaler.fit_transform(df[columns_to_scale]), columns=columns_to_scale)
+
+# --- PLOT 1: Initial scatter plot ---
+plt.figure(figsize=(12, 8))
+sns.scatterplot(x=df_scaled['Coluna1'], y=df_scaled['Coluna2'])
+plt.title('Initial Scatter Plot of Scaled Data')
+plt.xlabel('Scaled Coluna1')
+plt.ylabel('Scaled Coluna2')
+plt.grid(True, linestyle='--', alpha=0.7)
+plt.show()
+```
 
 
 <br><br>
