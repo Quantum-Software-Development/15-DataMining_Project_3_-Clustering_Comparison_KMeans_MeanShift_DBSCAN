@@ -397,7 +397,7 @@ plt.show()
 <br>
 
 <p align="center">
-  <img src="" width="100%">
+  <img src="https://github.com/user-attachments/assets/79a7f744-7acc-46cd-9cb5-e7532051bb4d" width="100%">
 </p>
 
 <br><br>
