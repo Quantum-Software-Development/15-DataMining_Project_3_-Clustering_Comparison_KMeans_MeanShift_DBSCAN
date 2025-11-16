@@ -175,9 +175,22 @@ scikit-learn
 
 <br><br>
 
+## 4. Step-by-step explanation (kid-friendly)
+
+- We open the table (CSV) — like opening a spreadsheet.
+- Count how many rows (lines) and columns (types of information) it has.
+- Look at basic numbers: averages, smallest, biggest — helps understand the data.
+- Remove any extra "Unnamed: 0" column if present.
+- If some boxes are empty, fill them with the most common value (mode).
+- If two rows are identical, delete duplicates.
+- Scale the numbers so large values don't dominate the patterns.
+- Use three methods to group points (K-Means, Mean-Shift, DBSCAN).
+- Draw the groups as pictures with a dark background and turquoise color.
+- Compare the results and explain what each method discovered.
 
 
 
+<br><br>
 
 
 
