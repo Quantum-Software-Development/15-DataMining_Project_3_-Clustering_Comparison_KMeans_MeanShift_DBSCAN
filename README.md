@@ -391,7 +391,36 @@ plt.show()
 
 <br>
 
-### [***PLOT 3***]() -
+### [***PLOT 3***]() - Comparison:** the sequence `plt.subplot(...); sns.scatterplot(...); plt.show()` generates the three plots together (K-Means, Mean-Shift, DBSCAN).
+
+
+<br>
+
+<p align="center">
+  <img src="" width="100%">
+</p>
+
+<br><br>
+
+> [!TIP]
+> 
+> 👌🏻
+> 
+> [***To save***](): each subplot as a single image: before `plt.show()`, use `plt.savefig('comparison_three_algorithms.png', dpi=300, bbox_inches='tight')`.
+>
+> To save separate images for each algorithm, move each subplot block into separate cells and save them individually.
+>
+
+<br><br>
+
+
+
+
+
+
+
+
+
 
 
 
