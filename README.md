@@ -193,8 +193,35 @@ scikit-learn
 <br><br>
 
 
+## 5. [Data cleaning \& preprocessing]()
 
+Typical code steps already [here() in the repo):
 
+<br>
+
+```python
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+
+df = pd.read_csv('Dados-Grupo4.csv')
+print(df.shape)  # rows & columns
+print(df.describe())  # summary statistics
+
+if 'Unnamed: 0' in df.columns:
+    df = df.drop(columns=['Unnamed: 0'])
+
+for col in df.columns:
+    if df[col].isnull().any():
+        df[col].fillna(df[col].mode()[0], inplace=True)
+
+df = df.drop_duplicates()
+
+num_cols = df.select_dtypes(include=['int64','float64']).columns
+scaler = StandardScaler()
+df_scaled = pd.DataFrame(scaler.fit_transform(df[num_cols]), columns=num_cols)
+```
+
+<br><br>
 
 
 
