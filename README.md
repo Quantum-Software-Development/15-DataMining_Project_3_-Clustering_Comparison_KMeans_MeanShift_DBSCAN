@@ -462,11 +462,14 @@ print('KMeans silhouette:', silhouette_score(df_scaled[['Coluna1','Coluna2']], d
 
 [-]() Example silhouette code:
 
+<br>
+
+```python
+from sklearn.metrics import silhouette_score
+print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
+```
+
 <br><br>
-
-
-
-
 
 
 
