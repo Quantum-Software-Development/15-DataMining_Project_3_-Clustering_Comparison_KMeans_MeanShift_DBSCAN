@@ -115,13 +115,21 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 <br><br>
 
 
-### 1. Project Overview
+## 1. [Project Overview]()
 
 This project loads a CSV dataset (`Dados-Grupo4.csv`), inspects and cleans it, applies feature scaling, and compares three clustering algorithms: **K-Means, Mean-Shift, and DBSCAN**. It includes dark turquoise plots and clear explanations to help anyone understand the workflow and results.
 
 
 <br><br>
 
+## 2. [What's in this Repo]()
+
+- `Dados-Grupo4.csv` — main dataset file.
+- `notebook.ipynb` or `run_clustering.py` — main code handling loading, cleaning, clustering, and plotting.
+- `README.md` — this documentation.
+- `requirements.txt` — list of Python packages needed.
+
+<br><br>
 
 
 
