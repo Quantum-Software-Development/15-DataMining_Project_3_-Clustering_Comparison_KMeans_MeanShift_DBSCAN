@@ -258,6 +258,27 @@ plt.plot(distances); plt.title('K-distance'); plt.show()
 
 <br><br>
 
+## 8. [Visualization]()
+
+Use matplotlib/seaborn with a dark background and turquoise palette:
+
+<br>
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+plt.style.use('dark_background')
+sns.set_palette('GnBu_r')  # turquoise palette
+
+plt.figure(figsize=(12,8))
+sns.scatterplot(x=df_scaled['Col1'], y=df_scaled['Col2'], hue=kmeans_labels, legend='full')
+plt.title('K-Means (dark + turquoise)')
+plt.show()
+```
+
+<br><br>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1f2d7894-6837-4f42-b689-2675e6e78cab" width="100%">
 </p>
