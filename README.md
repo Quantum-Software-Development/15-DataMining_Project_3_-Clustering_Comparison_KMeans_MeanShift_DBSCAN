@@ -415,11 +415,20 @@ plt.show()
 
 
 
+## 5.6 - [Print cluster counts & optional metrics]()
+
+[***What it does***](): prints how many clusters each method found and optionally computes silhouette score.
+
+<br>
+
+<br>
+
+```python
+
+```
 
 
-
-
-
+<br><br>
 
 
 
