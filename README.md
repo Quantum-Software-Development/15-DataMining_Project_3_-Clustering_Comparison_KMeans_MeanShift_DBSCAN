@@ -471,7 +471,7 @@ print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
 
 <br><br>
 
-## 8. Requirements \& environment
+## 8. [Requirements \& environment]()
 
 [-]() Python 3.8 or higher
 
