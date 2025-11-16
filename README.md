@@ -479,31 +479,11 @@ print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
   
 [-]() Optional: Jupyter Notebook or Google Colab
 
-<br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
 
 
-## 21-  [Our Crew:]()
+## 9-  [Our Crew:]()
 
 
 - 👨🏽‍🚀 **Andson Ribeiro** - [Slide into my inbox]()
@@ -536,6 +516,14 @@ print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
 [2](). **Ferreira, A. C. P. L. et al.** (2024). *Inteligência Artificial - Uma Abordagem de Aprendizado de Máquina*. 2nd Ed. LTC.
 
 [3](). **Larson & Farber** (2015). *Estatística Aplicada*. Pearson.
+
+### 12. References
+
+- J. MacQueen: “Some Methods for classification and Analysis of Multivariate Observations” — K-Means
+- Comaniciu \& Meer: “Mean shift: A robust approach toward feature space analysis.” — Mean-Shift
+- Ester et al.: “A density-based algorithm for discovering clusters” — DBSCAN
+- scikit-learn documentation (clustering algorithms)
+- Any good Intro to Data Science book (e.g., “Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow”)
 
 
 <br><br>
