@@ -130,6 +130,35 @@ Este projeto carrega um dataset CSV (`Dados-Grupo4.csv`), inspeciona e limpa os 
 <br><br>
 
 
+## 3. [Início Rápido (executar o código)]()
+
+[3.1]()- Abra o Google Colab ou seu ambiente Python local.
+
+<br>
+
+[3.2]()- Faça o upload de `Dados-Grupo4.csv` para a pasta de trabalho.
+
+<br>
+
+[3.3]()- Instale as dependências:
+
+<br>
+
+```bash
+pip install -r requirements.txt
+```
+
+<br>
+
+[3.4]()- Execute o `notebook.ipynb` célula por célula ou rode:
+
+<br>
+
+```bash
+python run_clustering.py
+```
+
+<br>
 
 
 
