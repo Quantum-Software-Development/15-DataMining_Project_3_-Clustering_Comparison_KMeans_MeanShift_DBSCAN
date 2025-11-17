@@ -176,6 +176,22 @@ scikit-learn
 <br><br>
 
 
+<br><br>
+
+## 4. [Explicação passo a passo (para crianças)]()
+
+* Abrimos a tabela (CSV) — como abrir uma planilha.
+* Contamos quantas linhas (linhas) e colunas (tipos de informação) ela tem.
+* Observamos números básicos: médias, menores, maiores — ajuda a entender os dados.
+* Removemos qualquer coluna extra chamada "Unnamed: 0", se existir.
+* Se algumas células estiverem vazias, preenchemos com o valor mais comum (moda).
+* Se duas linhas forem idênticas, excluímos as duplicatas.
+* Escalonamos os números para que valores grandes não dominem os padrões.
+* Usamos três métodos para agrupar pontos (K-Means, Mean-Shift, DBSCAN).
+* Desenhamos os grupos como imagens com fundo escuro e cor turquesa.
+* Comparamos os resultados e explicamos o que cada método descobriu.
+
+<br><br>
 
 
 
