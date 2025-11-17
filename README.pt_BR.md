@@ -246,6 +246,38 @@ df = df.drop_duplicates()
 <br><br>
 
 
+## 5.3 - [Escalonar features numéricas & scatter plot inicial]()
+
+[***O que faz***](): padroniza as variáveis numéricas e gera o gráfico de dispersão inicial (tamanho 12×8).
+
+<br>
+
+```python
+from sklearn.preprocessing import StandardScaler
+
+columns_to_scale = ['Coluna1', 'Coluna2']  # adapte se suas colunas forem diferentes
+scaler = StandardScaler()
+df_scaled = pd.DataFrame(scaler.fit_transform(df[columns_to_scale]), columns=columns_to_scale)
+
+# --- PLOT 1: Scatter plot inicial ---
+plt.figure(figsize=(12, 8))
+sns.scatterplot(x=df_scaled['Coluna1'], y=df_scaled['Coluna2'])
+plt.title('Gráfico de Dispersão Inicial dos Dados Escalonados')
+plt.xlabel('Coluna1 Escalonada')
+plt.ylabel('Coluna2 Escalonada')
+plt.grid(True, linestyle='--', alpha=0.7)
+plt.show()
+```
+
+<br>
+
+### [***PLOT 1***]() — Scatter Inicial
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1f2d7894-6837-4f42-b689-2675e6e78cab" width="100%">
+</p>
 
 
 
