@@ -221,6 +221,37 @@ print(f"Dataset possui {df.shape[0]} linhas e {df.shape[1]} colunas.")
 <br><br>
 
 
+## 5.2 - [Inspeção inicial & limpeza]()
+
+[***O que faz***](): `df.describe()`, remove `'Unnamed: 0'` se existir, preenche valores faltantes com a moda, remove duplicatas.
+
+<br>
+
+```python
+print(df.describe())
+
+# Remove coluna extra se existir
+if 'Unnamed: 0' in df.columns:
+    df = df.drop(columns=['Unnamed: 0'])
+
+# Preenche valores faltantes
+for col in df.columns:
+    if df[col].isnull().any():
+        df[col] = df[col].fillna(df[col].mode()[0])
+
+# Remove duplicatas
+df = df.drop_duplicates()
+```
+
+<br><br>
+
+
+
+
+
+
+
+
 
 
 
