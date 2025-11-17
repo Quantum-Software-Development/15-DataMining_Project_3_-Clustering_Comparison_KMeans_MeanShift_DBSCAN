@@ -407,12 +407,29 @@ plt.show()
 > 
 > [***Para Salvar***](): each subplot as a single image: before `plt.show()`, use `plt.savefig('comparison_three_algorithms.png', dpi=300, bbox_inches='tight')`.
 >
-> [***Para Salvar***]():: separate images for each algorithm, move each subplot block into separate cells and save them individually.
+> [***Para Salvar***](): separate images for each algorithm, move each subplot block into separate cells and save them individually.
 >
 
 <br><br>
 
 
+## 5.6 - [Exibir contagem de clusters & métricas opcionais]()
+
+[***O que faz***](): mostra quantos clusters cada método encontrou e, opcionalmente, calcula o *silhouette score*.
+
+<br>
+
+```python
+print(f"Número de clusters K-Means: {df_scaled['kmeans_labels'].nunique()}")
+print(f"Número de clusters Mean-Shift: {df_scaled['meanshift_labels'].nunique()}")
+print(f"Número de clusters DBSCAN (excluindo ruído -1): {df_scaled['dbscan_labels'].nunique() - (1 if -1 in df_scaled['dbscan_labels'].unique() else 0)}")
+
+# Opcional: silhouette
+from sklearn.metrics import silhouette_score
+print('Silhouette K-Means:', silhouette_score(df_scaled[['Coluna1','Coluna2']], df_scaled['kmeans_labels']))
+```
+
+<br><br>
 
 
 
