@@ -466,8 +466,18 @@ from sklearn.metrics import silhouette_score
 print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
 ```
 
+
 <br><br>
 
+## 8. [Requisitos & ambiente]()
+
+[-]() Python 3.8 ou superior
+
+[-]() pandas, numpy, matplotlib, seaborn, scikit-learn
+
+[-]() Opcional: Jupyter Notebook ou Google Colab
+
+<br><br>
 
 
 
