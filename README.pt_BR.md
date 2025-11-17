@@ -190,6 +190,35 @@ scikit-learn
 
 <br><br>
 
+## 5. [Código Passo a Passo]()
+
+Etapas típicas do código já estão **[aqui](https://github.com/Quantum-Software-Development/15-DataMining_Project_3_-Clustering_Comparison_KMeans_MeanShift_DBSCAN/blob/91ce4685c925253a2d054c9f89ebe16f00d27050/code/Project_3__Clustering_Comparison_KMeans_MeanShift_DBSCAN.ipynb)** no repositório):
+
+<br><br>
+
+## 5.1 - [Ambiente & carregamento dos dados]()
+
+[***O que faz***](): importa bibliotecas, define tema escuro e paleta turquesa, carrega o CSV e imprime o formato (shape).
+
+<br>
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Configura matplotlib para fundo escuro
+plt.style.use('dark_background')
+sns.set_palette('GnBu_r')
+
+# Carrega o dataset
+df = pd.read_csv('/content/Dados-Grupo4.csv')
+
+# Exibe o número de linhas e colunas
+print(f"Dataset possui {df.shape[0]} linhas e {df.shape[1]} colunas.")
+```
+
+<br><br>
 
 
 
