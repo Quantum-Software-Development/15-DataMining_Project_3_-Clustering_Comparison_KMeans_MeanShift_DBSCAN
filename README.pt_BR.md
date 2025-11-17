@@ -401,7 +401,16 @@ plt.show()
 
 <br><br>
 
+> [!TIP]
+> 
+> 👌🏻
+> 
+> [***Para Salvar***](): each subplot as a single image: before `plt.show()`, use `plt.savefig('comparison_three_algorithms.png', dpi=300, bbox_inches='tight')`.
+>
+> [***Para Salvar***]():: separate images for each algorithm, move each subplot block into separate cells and save them individually.
+>
 
+<br><br>
 
 
 
