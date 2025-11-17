@@ -118,6 +118,19 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 Este projeto carrega um dataset CSV (`Dados-Grupo4.csv`), inspeciona e limpa os dados, aplica normalização (feature scaling) e compara três algoritmos de clusterização: **K-Means, Mean-Shift e DBSCAN**. Inclui gráficos em estilo turquesa escuro e explicações claras para ajudar qualquer pessoa a entender o fluxo de trabalho e os resultados.
 
 
+<br><br>
+
+## 2. [O que tem neste Repositório]()
+
+* `Dados-Grupo4.csv` — arquivo principal do dataset.
+* `notebook.ipynb` ou `run_clustering.py` — código principal responsável por carregar, limpar, clusterizar e plotar.
+* `README.md` — esta documentação.
+* `requirements.txt` — lista de pacotes Python necessários.
+
+<br><br>
+
+
+
 
 
 
