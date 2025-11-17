@@ -320,6 +320,17 @@ plt.show()
 <br>
 
 
+### [***PLOT 2***]() - gerado por `plt.plot(distances)` + `plt.show()`.
+
+Este gráfico é essencial para escolher o valor de `eps` — procure o **“cotovelo”** (a curva onde há uma mudança brusca).
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b680cc5c-8b24-4514-9bb0-5df6d56243da" width="100%">
+</p>
+
+<br><br>
 
 
 
