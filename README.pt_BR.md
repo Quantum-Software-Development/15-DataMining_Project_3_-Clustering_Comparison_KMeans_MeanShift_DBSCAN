@@ -432,6 +432,16 @@ print('Silhouette K-Means:', silhouette_score(df_scaled[['Coluna1','Coluna2']], 
 <br><br>
 
 
+<br><br>
+
+## 6. [Resumo dos resultados & interpretação]()
+
+* [**K-Means (K=3):**]() Encontrou 3 clusters — linha de base padrão, assume grupos arredondados.
+* [**Mean-Shift:**]() Encontrou 4 clusters — se adapta automaticamente às regiões densas.
+* [**DBSCAN**]() (eps escolhido pelo gráfico K-distance, min_samples=4): Encontrou 5 clusters + ruído — bom para grupos densos e detecção de outliers.
+* [**Interpretação:**]() Cada método agrupa os pontos de forma diferente, dependendo das regras. É como organizar brinquedos por cor vs por proximidade na prateleira — os montes serão diferentes.
+
+<br><br>
 
 
 
