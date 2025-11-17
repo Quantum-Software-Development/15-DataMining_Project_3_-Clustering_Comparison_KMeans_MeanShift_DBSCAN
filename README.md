@@ -421,7 +421,6 @@ plt.show()
 
 <br>
 
-<br>
 
 ```python
 print(f"Number of K-Means clusters: {df_scaled['kmeans_labels'].nunique()}")
