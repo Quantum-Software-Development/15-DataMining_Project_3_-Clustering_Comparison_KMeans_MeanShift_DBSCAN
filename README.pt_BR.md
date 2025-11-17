@@ -161,6 +161,21 @@ python run_clustering.py
 <br>
 
 
+[3.5]()- **Exemplo de `requirements.txt`:**
+
+<br>
+
+```
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+```
+
+<br><br>
+
+
 
 
 
