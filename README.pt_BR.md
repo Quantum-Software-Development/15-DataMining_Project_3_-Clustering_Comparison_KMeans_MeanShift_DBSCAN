@@ -333,6 +333,16 @@ Este gráfico é essencial para escolher o valor de `eps` — procure o **“cot
 <br><br>
 
 
+> [!TIP]
+> 
+> 👌🏻
+> 
+> [***To save***](): plt.savefig('k_distance.png', dpi=300, bbox_inches='tight').
+>
+
+
+<br><br>
+
 
 
 
