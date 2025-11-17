@@ -93,6 +93,23 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 <br><br><br>
 
 
+## Sumário
+
+1. [Visão Geral do Projeto](#project-overview)
+2. [O que tem neste repositório](#whats-in-this-repo)
+3. [Início Rápido (executar o código)](#quick-start-run-the-code)
+4. [Explicação Passo a Passo](#step-by-step-explanation-kid-friendly)
+5. [Código Passo a Passo](#data-cleaning--preprocessing)
+6. [Algoritmos usados (K-Means, Mean-Shift, DBSCAN)](#algorithms-used-k-means-mean-shift-dbscan)
+7. [Como escolhemos o eps do DBSCAN (gráfico K-distância)](#how-we-chose-dbscan-eps-k-distance-graph)
+8. [Visualização](#visualization--style-dark--turquoise)
+9. [Resumo dos resultados & interpretação](#results-summary--interpretation)
+10. [Próximos passos & sugestões](#next-steps--suggestions)
+    11 [Requisitos & ambiente](#requirements--environment)
+11. [Referências](#references)
+12. [Licença & créditos](#license--credits)
+
+<br><br>
 
 
 
