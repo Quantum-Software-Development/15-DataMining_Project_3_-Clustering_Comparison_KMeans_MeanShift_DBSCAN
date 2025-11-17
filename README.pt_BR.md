@@ -503,54 +503,34 @@ print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
 <br><br>
 
 
-<!-- ========================== [Bibliographr ====================  -->
+<!-- ========================== [Bibliographry ====================  -->
 
 <br><br>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
+
+## 10. [Bibliografia]()
+
+[1](). **Castro, L. N. & Ferrari, D. G.** (2016). *Introdução à mineração de dados: conceitos básicos, algoritmos e aplicações*. Saraiva.
+
+[2](). **Ester, M., Kriegel, H.-P., Sander, J., & Xu, X.** (1996). *A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise*.
+
+[3](). **Ferreira, A. C. P. L. et al.** (2024). *Inteligência Artificial — Uma Abordagem de Aprendizado de Máquina*. 2ª Ed. LTC.
+
+[4](). **Larson, R. & Farber, B.** (2015). *Estatística Aplicada*. Pearson.
+
+[5](). **MacQueen, J.** (1967). *Some Methods for Classification and Analysis of Multivariate Observations* — origem do K-Means.
+
+[6](). **Meer, P. & Comaniciu, D.** (2002). *Mean Shift: A Robust Approach Toward Feature Space Analysis*.
+
+[7](). **Documentação do scikit-learn** — algoritmos de clusterização.
+
+[8](). **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** — referência geral de Data Science.
+
+
+
 <br><br>
 
 
