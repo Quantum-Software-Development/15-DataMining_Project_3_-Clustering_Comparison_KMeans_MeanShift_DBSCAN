@@ -106,8 +106,7 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 8. [Visualization](#visualization--style-dark--turquoise)
 9. [Results summary & interpretation](#results-summary--interpretation)
 10. [Next steps & suggestions](#next-steps--suggestions)
-
-11  [Requirements & environment](#requirements--environment)
+11.  [Requirements & environment](#requirements--environment)
 12. [References](#references)
 13. [License & credits](#license--credits)
 
