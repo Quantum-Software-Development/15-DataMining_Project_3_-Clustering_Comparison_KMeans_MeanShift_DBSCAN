@@ -175,10 +175,7 @@ scikit-learn
 
 <br><br>
 
-
-<br><br>
-
-## 4. [Explicação passo a passo (para crianças)]()
+## 4. [Explicação passo a passo]()
 
 * Abrimos a tabela (CSV) — como abrir uma planilha.
 * Contamos quantas linhas (linhas) e colunas (tipos de informação) ela tem.
