@@ -280,7 +280,16 @@ plt.show()
 </p>
 
 
+<br><br>
 
+> [!TIP]
+> 
+> 👌🏻
+> 
+> [***To save***](): add plt.savefig('initial_scatter.png', dpi=300, bbox_inches='tight') before de plt.show()
+> 
+
+<br><br>
 
 
 
