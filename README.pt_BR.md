@@ -391,6 +391,15 @@ plt.show()
 
 <br>
 
+### [***PLOT 3***]() - Comparação:** a sequência `plt.subplot(...); sns.scatterplot(...); plt.show()` gera os três gráficos juntos (K-Means, Mean-Shift, DBSCAN).
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/79a7f744-7acc-46cd-9cb5-e7532051bb4d" width="100%">
+</p>
+
+<br><br>
 
 
 
