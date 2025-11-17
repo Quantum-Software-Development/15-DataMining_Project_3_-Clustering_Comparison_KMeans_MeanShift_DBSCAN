@@ -444,6 +444,21 @@ print('Silhouette K-Means:', silhouette_score(df_scaled[['Coluna1','Coluna2']], 
 <br><br>
 
 
+## 7. [Próximos passos & sugestões]()
+
+[-]() Calcular métricas como *silhouette score* ou índice de Davies-Bouldin para comparar os métodos numericamente.
+
+[-]() Testar outros valores de K para o K-Means; experimentar diferentes quantis para o *bandwidth* do Mean-Shift.
+
+[-]() Com mais de 2 features, usar PCA/t-SNE/UMAP para visualização.
+
+[-]() Se o DBSCAN encontrar muito ruído, ajustar *eps*/*min_samples* ou testar HDBSCAN.
+
+[-]() Criar um slide comparando os três gráficos lado a lado, com conclusões em uma frase para cada.
+
+[-]() Exemplo de código para *silhouette*:
+
+<br>
 
 
 
