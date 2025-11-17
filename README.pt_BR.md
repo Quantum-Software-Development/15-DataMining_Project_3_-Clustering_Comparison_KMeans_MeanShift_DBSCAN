@@ -292,6 +292,32 @@ plt.show()
 <br><br>
 
 
+## 5.4 - [Gráfico K-distance (determinar eps do DBSCAN)]()
+
+[***O que faz***](): calcula a distância para o 4º vizinho mais próximo de cada ponto e plota as distâncias ordenadas — o gráfico K-distance usado para escolher o valor de *eps*.
+
+<br>
+
+```python
+from sklearn.neighbors import NearestNeighbors
+import numpy as np
+
+neigh = NearestNeighbors(n_neighbors=4)
+neigh.fit(df_scaled)
+distances, indices = neigh.kneighbors(df_scaled)
+distances = np.sort(distances[:, 3], axis=0)  # distância até o 4º vizinho
+
+# --- PLOT 2: Gráfico K-distance ---
+plt.figure(figsize=(12, 8))
+plt.plot(distances)
+plt.title('Gráfico K-distance para DBSCAN')
+plt.xlabel('Pontos ordenados pela distância')
+plt.ylabel('Epsilon (Distância)')
+plt.grid(True, linestyle='--', alpha=0.7)
+plt.show()
+```
+
+<br>
 
 
 
