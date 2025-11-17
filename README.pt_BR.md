@@ -192,7 +192,13 @@ scikit-learn
 
 ## 5. [Código Passo a Passo]()
 
+<br>
+
 Etapas típicas do código já estão **[aqui](https://github.com/Quantum-Software-Development/15-DataMining_Project_3_-Clustering_Comparison_KMeans_MeanShift_DBSCAN/blob/91ce4685c925253a2d054c9f89ebe16f00d27050/code/Project_3__Clustering_Comparison_KMeans_MeanShift_DBSCAN.ipynb)** no repositório):
+
+<br>
+
+* [Implementação de Pedro Victor](https://github.com/Quantum-Software-Development/15-DataMining_Project_3_-Clustering_Comparison_KMeans_MeanShift_DBSCAN/blob/62c1557a86b210af46071f9ed4d588fb2c8837c8/Pedro_Victor%E2%80%99s_Implementation/Project_3__Clustering_Comparison_KMeans_MeanShift_DBSCAN.ipynb):
 
 <br><br>
 
