@@ -504,11 +504,8 @@ print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
 - 🧑🏼‍🚀 **Pedro Vyctor** - [Hit me up by email](mailto:pedro.vyctor00@gmail.com)
 
 
-
-<br><br>
-
-
 <!-- ========================== [Bibliographr ====================  -->
+
 
 <br><br>
 
