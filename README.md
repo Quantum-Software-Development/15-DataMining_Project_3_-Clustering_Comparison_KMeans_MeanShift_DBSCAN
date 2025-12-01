@@ -582,7 +582,7 @@ print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
 
 #
 
-###### <p align="center"> Copyright 2025 Quantum Software Development. Code released under the [MIT License license.](https://github.com/Quantum-Software-Development/Math/blob/3bf8270ca09d3848f2bf22f9ac89368e52a2fb66/LICENSE)
+###### <p align="center"> Copyright 2026 Quantum Software Development. Code released under the [MIT License license.](https://github.com/Quantum-Software-Development/Math/blob/3bf8270ca09d3848f2bf22f9ac89368e52a2fb66/LICENSE)
 
 
 
