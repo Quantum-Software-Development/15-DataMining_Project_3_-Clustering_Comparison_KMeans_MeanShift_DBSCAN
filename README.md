@@ -534,9 +534,6 @@ print('KMeans silhouette:', silhouette_score(df_scaled, kmeans_labels))
 
 
 
-<br><br>
-
-
 <!-- ======================================= Start Footer ===========================================  -->
 
 
