@@ -34,7 +34,7 @@ Professor:  [***Professor Doctor in Mathematics Daniel Rodrigues da Silva***](ht
 
 <br><br><br>
 
-> [!IMPORTANT]
+> [!NOTE]
 > 
 > ⚠️ Heads Up
 >
